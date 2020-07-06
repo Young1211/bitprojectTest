@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const productEnroll = require('./projectRouter/productEnroll')
+const productEnroll = require('./controller/productEnroll')
 
 const passport = require('passport');
 router.use(passport.initialize());

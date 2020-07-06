@@ -5,7 +5,7 @@ require('moment-timezone');
 moment.tz.setDefault("Asia/Seoul");
 
 
-const requestModel = require('../../model/projectSchema/requestSchema');
+const requestModel = require('../../model/requestSchema');
 
 router.post('/enroll', async (req,res)  => {
     /*

@@ -1,10 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import { BrowserRouter, Link } from "react-router-dom";
 import { Route } from "react-router-dom";
 
-import  Enroll from './project/Enroll'
+import  Enroll from './pages/Enroll'
 function App() {
   return (
     <div className="App">

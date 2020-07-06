@@ -5,11 +5,11 @@ const app = express();
 let cors = require('cors');
 const bodyParser = require('body-parser');
 
-const route = require('../routes/index');
+const route = require('./routes/index');
 
 
 const port = 3001;
-const connection = require('../src/connection');
+const connection = require('../common/connection');
 
 var whitelist = ['http://localhost:3000', 'http://localhost:3001']
 var corsOptions = {
